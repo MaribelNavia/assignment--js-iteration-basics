@@ -7,14 +7,29 @@
  * only those strings with 4 or fewer characters.
  *
 */
+        function shortiesOnly(array) {
+            let newArray = [];
+            for (i = 0; i < array.length; i++) {
+                if (array[i].length < 5) {
+                    newArray.push(array[i]);
+                }
+            }
+            return newArray;
+        } 
 
 
 
 
-
-
-
-
+        function shortiesOnly(allNames){
+            const shorts = [];
+            for (let i = 0; i < allNames.length; i++) {
+                if (allNames[i].length <= 4){
+                    console.log(allNames[i]);
+                    shorts.push(allNames[i]);
+                }
+                return shorts
+            }
+        }
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~

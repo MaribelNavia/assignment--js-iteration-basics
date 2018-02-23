@@ -8,9 +8,14 @@
  **/
 
 
-function arrayToString(arrayInput){
-  /* Your code below. Look at the console.asserts to se*/
-}
+function arrayToString(output){
+	let greetings=""
+	for (let i =0; i < output.length; i++){
+		greetings+=(output[i])
+	}
+	console.log(greetings)
+ }
+
 
 
 

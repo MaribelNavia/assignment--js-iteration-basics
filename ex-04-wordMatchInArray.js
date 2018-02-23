@@ -8,12 +8,16 @@
 */
 
 
-
-
-
-
-
-
+			
+		
+		function wordMatchInArray(string, array) {
+			for (i = 0; i < array.length; i++) {
+				if (string === array[i]) {
+					return true;
+				}
+			}
+			return false;
+		}
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
